@@ -8,7 +8,8 @@
     "server": "nodemon backend/server.js",
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "lint": "eslint src/js"
+    "lint": "eslint src/js",
+    "data:import": "node backend/seederScript.js"
   },
   "keywords": [],
   "author": "",
